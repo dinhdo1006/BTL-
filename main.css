@@ -1,0 +1,42 @@
+.anh {
+    background-image: url(https://inkythuatso.com/uploads/thumbnails/800/2021/12/logo-khoa-hoc-tu-nhien-inkythuatso-01-25-16-15-49.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+    height: 200px;
+    width:200px;
+  }
+  .anh2 {
+    background-color:rgb(202, 197, 197) ;
+    height : 200px;
+    width: 200px;
+    text-align: center;
+  position:absolute;
+  top:10px;
+    width :50%;
+    left :220px
+  
+  }
+  .anh3{
+   background-color:  black ;
+   width :710px;
+   height:200px;
+position:absolute;
+top:218px;
+
+  }
+  .anh4{
+    background-color: orangered;
+    width:200px;
+    height:200px;
+    position:absolute;
+    top:218px;
+    left:725px;
+  }
+  .anh5{
+    background-image: url( https://img.lovepik.com//back_pic/05/58/34/425b2f499290078.jpg_wh300.jpg);
+    width:918px;
+    height:200px;
+    position:absolute;
+    top:428px;
+    text-align:right;
+  }

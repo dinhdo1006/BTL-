@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nhập đơn hàng</title>
+    <style>
+        .body{
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            top:50%
+
+        }
+      .khunganh { 
+        background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 30px 10px rgb(242, 240, 240);
+            width: 400px;
+    }
+    </style>
+    <script>
+        function concatenateStrings() {
+            const text1 = document.getElementById("textbox1").value;
+            const text2 = document.getElementById("textbox2").value;
+            const concatenated = text1 + text2;
+
+            // Thông báo qua alert
+            alert(concatenated);
+
+            // Thông báo qua nhãn label
+            document.getElementById("resultLabel").innerText = concatenated;
+        }
+
+        // Phần B: Quản lý số lượng hàng hóa
+        let quantity = 0;
+        let unitPrice = 0; 
+
+        function updateQuantity(change) {
+            quantity += change;
+            if (quantity < 0) quantity = 0; 
+            document.getElementById("quantityTextbox").value = quantity;
+            updateTotalPrice();
+        }
+
+        function updateUnitPrice() {
+            const priceInput = document.getElementById("unitPriceInput").value;
+            unitPrice = parseFloat(priceInput) || 0; 
+            updateTotalPrice();
+        }
+
+        function updateTotalPrice() {
+            document.getElementById("totalPriceLabel").innerText = "Thành tiền: " + (quantity * unitPrice) + " VNĐ";
+        }
+    </script>
+</head>
+
+<body>
+    <div class="body">
+    <div class="khunganh">
+    <h1><font color="blue" >Nối chuỗi</font></h1>
+    <input type="text" id="textbox1" placeholder="Nhập chuỗi 1">
+    <input type="text" id="textbox2" placeholder="Nhập chuỗi 2">
+    <button onclick="concatenateStrings()">Submit</button>
+    <label id="resultLabel"></label>
+
+    <h1><font color="red" >Đơn hàng</font></h1>
+    <label>Đơn giá: </label>
+    <input type="number" id="unitPriceInput" oninput="updateUnitPrice()" placeholder="Nhập đơn giá">
+    
+    <div>
+        <lable>Số lượng:<br></lable>
+        <button onclick="updateQuantity(1)">+</button>
+        <input type="text" id="quantityTextbox" value="0" readonly>
+        <button onclick="updateQuantity(-1)">-</button>
+    </div>
+    
+    <div>
+        <label id="totalPriceLabel">Thành tiền: 0 VNĐ</label>
+    </div>
+</body>
+</html>
+</div>

@@ -1,0 +1,320 @@
+bai1
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tho </title>  
+</head>
+<body
+    background="https://gcs.tripi.vn/public-tripi/tripi-feed/img/474066OTe/anh-nen-la-phong-mua-thu-dep_121124528.jpg"
+    max-width ="400px"
+    width="10%"
+    text-align ="center "
+    padding="200px">
+</body>
+    <img src ="https://cellphones.com.vn/sforum/wp-content/uploads/2024/02/avatar-anh-meo-cute-5.jpg"  
+      width="50px"
+      height ="50px"
+      margin-right ="50px">
+    <div text align = "center">
+    <h2><font face  ="Time New Roman"><font size ="16"><font color ="white" >Mùa Đông Nắng Ở Đâu ?</font></font></font></h2>
+   <br>
+   <em>
+    <font facae ="Arial"><font size ="5">
+    <font color =" Black">-Mùa hè nắng ở nhà ta</font><br>
+    <font color ="black">Mùa đông nắng đi đâu mất?</font><br>
+     <font color="black">-Nắng ở xung quanh bình tích</font><br>
+     <font color =" black">Ủ nước chè tươi cho bà</font><br><br>
+     <font color ="black ">Bà nhấp một ngụm rồi "khà"</font><br>
+    <font color =" black">Nắng trong nước chè chan chát</font><br>
+    <font color =" black">Nắng vào quả cam nắng ngọt</font><br>
+     <font color ="black">Trong suốt mùa đông vườn em</font></font></font>
+   </em>
+    </div>
+   </body>
+</body>
+</html>
+ bai 2
+<html></html>
+<head></head>
+<body>
+    <div align = "center"></div>
+ <font face  ="Time New Roman"><font size ="16"> Thơ Tình Cuối Mùa Thu</font></font>
+<br>
+<br>
+<br>
+ <font color ="red"><font face ="Arial><font size ="10"></font>Cuối trời mây trắng bay</font><font></font>
+<br>
+          <font color="blue">Lá vàng thưa thớt quá</font>
+<br>
+         <font color ="pink">Phải chăng lá về rừng</font>
+<br>
+           <font color="balck">Mùa thu đi cùng lá </font>
+<br>
+     <font color =" green">Mùa thu ra biển cả</font>
+<br>
+      <font color ="purple">Theo dòng nước mênh mang</font>
+<br>
+    <font color =" brown">Mùa thu vào hoa cúc</font>
+<br>
+       <font color ="  orange yellow">Chỉ còn anh và em</font>
+</body>
+bai 3
+<!DOCTYPE <html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tho</title>
+</head>
+<body
+background="https://gcs.tripi.vn/public-tripi/tripi-feed/img/474066OTe/anh-nen-la-phong-mua-thu-dep_121124528.jpg"
+height="50%"
+width="100%"></body>
+<img style ="border-radius: 50%;height: 100px;width: 100px;"
+ src=
+      >
+<div text align = "center">
+
+    <h1>Nói Cùng Anh </h1>
+    <font face ="Arial"
+    <p>Em biết đấy là điều đã cũ</p>
+    <p>Chuyện tình yêu , quan trọng gì đâu:</p>
+    <p>Sự gắn bó giữa hai người xa lạ</p>
+    <p>Nỗi vui buồn đem chia sẻ cùng nhau </p>
+    <font/>
+           <span>-Xuân Quỳnh- </span>
+           <br>
+           <img style ="border-radius: 50%;height: 90px;width: 90px;  "
+           src="https://cdn.pixabay.com/photo/2019/08/19/20/36/pig-4417320_1280.jpg"
+                >
+        </div>
+</div>
+</div>
+
+</body>
+</html>
+bai4
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    [<div style="background:#eee;border:1px solid #ccc;padding:5px 10px;"> 
+        <p><strong>Nội dung ch&iacute;nh [<span class="showHideArticleSectionMenu">hide</span>]</strong></p> 
+        <div class="boxContentGuide"></div>
+        <p><a href="#id1">1:Thiết kế ngôi nhà</a></p>
+        <p><a href="#id2">2:Thiết kế các khung cửa</a></p>
+        <p><a href="#id3">3:Thiết kế nội thất ngôi nhà </a></p>
+        <p><a href="#id4">4:Hoàn thành ngôi nhà</a></p>
+        <p><a href ="#top">Quay lại trang đầu</a>
+        </div>
+        </div>  
+        <p id ="id1">1. Thiết kế ngôi nhà theo yêu cầu của khách hàng ,kiểu cổ điển hoặc kiểu hiện đại <br>
+    <p id ="id2">2. Thiết kế các mẫu khung cửa dựa trên hai loại cửa đang thịnh hành trên thị trường:<br>
+        1.1 Thiết kế khung cửa gỗ<br>
+        <img style="height: 200px;width: 500px;" 
+        src ="https://famidoor.vn/wp-content/uploads/2022/09/cua-go-tu-nhien-3.jpg" ><br>
+1.2 Thiết kế khung cửa nhôm <br>
+
+<img style="height: 200px;width: 500px;" 
+ src="https://cuakinhnhom.net/wp-content/uploads/2021/04/mau-cua-nhom-gia-go-05.jpg"><br>
+Bên trên là hai kiểu khung cửa mà người dùng có thể lựa chọn 
+<p id="id3">3. Thiết kế nội thất bao gồm đèn, bàn ghế, tủ lạnh ,điều hòa, bàn bếp,bàn ăn ,sofa,tivi....<br>
+    3.1 Nội Thất Kiểu Hiện Đại<br>
+    <img style="height: 200px;width: 500px;"
+    src="https://homehome.vn/wp-content/uploads/6-mau-hinh-anh-noi-that-nha-dep-theo-phong-cach-hien-dai.jpg"><br>
+    3.2 Nội Thất Kiểu Cổ Điển<br>
+    <img style="height: 200px;width: 500px;"
+     src="https://betaviet.com/wp-content/uploads/2022/11/mau-noi-that-biet-thu-phong-khach-tan-co-dien-go-go-do-cao-cap-nt220692.jpg"><br>
+    <p id="id4">4.Tổng kết hoàn thành ngôi nhà với 2 kiểu dáng hiện đại và cổ điển .Bên trên là những gợi ý và những lựa chọn cho khách hàng tham khảo đưa ra đánh giá và những ý tưởng cho ngôi nhà của mình .</p>
+</p>
+<p><a href ="#top">Quay lại trang đầu</a>
+        </p>
+
+        </p>                         
+</body>
+</html>
+bai5
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký Facebook</title>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .register-container {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 400px;
+        }
+        .register-container h1 {
+            color: #1877f2;
+            text-align: center;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #1877f2;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #145dbf;
+        }
+        .terms {
+            text-align: center;
+            margin-top: 10px;
+            font-size: 12px;
+        }
+    </style>
+</
+</head>
+<body> 
+<div class="register-container"> 
+<h1>Đăng ký</h1>
+<form action="#" method="POST">
+<div class="form-group"> 
+<label for="firstname">Họ</label>             
+<input type="text" id="firstname" name="firstname" required>   
+            </div
+            </
+</div>  
+<div class="form-group">          
+<label for="lastname">Tên</label>             
+<put type="text" id="lastname" name="lastname" required>
+            </div>   
+        
+<div class="form-group"> 
+<label for="email">Email hoặc số điện thoại</label> 
+<input type="email" id="email" name="email" required>
+            
+            </div
+</div>
+<div class="form-group">
+<label for="password">Mật khẩu</label>           
+<input type="password" id="password" name="password" required>     
+            </div
+            </  
+</div>        
+<div class="form-group">  
+<label for="birthday">Ngày sinh</label>
+<input type="date" id="birthday" name="birthday" required>
+            
+            </div
+            </
+</div>
+<div class="form-group">
+                            
+<label>Giới tính</label>
+                      
+<input type="radio" id="male" name="gender" value="male" required> Nam         
+<input type="radio" id="female" name="gender" value="female" required> Nữ     
+<input type="radio" id="other" name="gender" value="other" required> Khác      
+</div>     
+<button type="submit" class="btn">Đăng ký</button>
+        </form>
+<div class="terms">
+            Bằng cách nhấn vào Đăng ký, bạn đồng ý với 
+            Bằng cách nhấn vào Đăng ký, bạn đồng ý với 
+
+            Bằng cách nhấn vào Đăng ký, bạn đồng ý với
+
+            Bằng cách nhấn vào Đăng ký, bạn đồng ý
+
+            Bằng cách nhấn vào Đăng ký, bạn đồng          
+<a href="#">Điều khoản</a>, <a href="#">Chính sách dữ liệu</a> và <a href="#">Chính sách cookie</a> của chúng tôi.
+    
+        </div
+</div>
+    </div>
+</body>
+
+</html
+
+</
+</html>
+bai6
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoo Keeper Application Form</title>
+    <link rel="stylesheet" href="giaodien3.css">
+    </style>
+</head>
+<body>
+<div class="form-container">
+    <h1>Zoo Keeper Application Form</h1>
+    <p>Please complete the form. Mandatory fields are marked with <span style="color:red;">*</span></p>
+    <fieldset>
+        <legend>Contact Details</legend>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required><br>
+        <label for="telephone">Telephone:</label>
+        <input type="number" id="telephone" name="telephone"><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required><br>
+    </fieldset>
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age"><br>
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+            <option value="female">Female</option>
+            <option value="male">Male</option>
+            <option value="other">Other</option>
+        </select><br>
+        <label for="question">When did you first know you wanted to be a zoo keeper?</label><br>
+        <textarea id="question" name="question" rows="4"></textarea>
+    </fieldset>
+    <fieldset>
+        <legend>Pick Your Favorite Animals</legend>
+        <label><input type="checkbox" name="animals" value="zebra"> Zebra</label>
+        <label><input type="checkbox" name="animals" value="cat"> Cat</label>
+        <label><input type="checkbox" name="animals" value="anaconda"> Anaconda</label>
+        <label><input type="checkbox" name="animals" value="human"> Human</label><br>
+        <label><input type="checkbox" name="animals" value="elephant"> Elephant</label>
+        <label><input type="checkbox" name="animals" value="wildebeest"> Wildebeest</label>
+        <label><input type="checkbox" name="animals" value="pigeon"> Pigeon</label>
+        <label><input type="checkbox" name="animals" value="crab"> Crab</label>
+    </fieldset>
+    <input type="submit" value="Submit Application">
+</div>
+
+</body>
+</html>

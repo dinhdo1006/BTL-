@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thiết Kế Nội Dung
+        
+    </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .breadcrumb {
+            font-size: 14px;
+            color: #555;
+        }
+        .product-section {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .product-section h1 {
+            margin-top: 0;
+        }
+        .product-info {
+            display: flex;
+        }
+        .product-title {
+            font-size: 28px;
+            color: #32527d;
+        }
+        .price {
+            color: #d10000;
+            font-size: 22px;
+            font-weight: bold;
+        }
+        .discount {
+            color: #999;
+            text-decoration: line-through;
+            margin-left: 10px;
+        }
+        .shipping {
+            color: #444;
+            margin-top: 10px;
+        }
+        .product-image {
+            flex: 1;
+        }
+        .product-options {
+            flex: 1;
+            margin-left: 20px;
+        }
+        .color-option, .quantity, .buttons {
+            margin-top: 10px;
+        }
+        .quantity-control {
+            display: flex;
+            align-items: center;
+        }
+        .quantity-control button {
+            padding: 10px;
+            font-size: 16px;
+            width: 40px;
+            height: 40px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+            background-color: #f9f9f9;
+        }
+        .quantity-control input {
+            text-align: center;
+            font-size: 16px;
+            width: 50px;
+            height: 40px;
+            margin: 0 5px;
+        }
+        .buttons button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        .buy-now {
+            background-color: #d10000;
+            color: white;
+        }
+        .add-to-cart {
+            background-color: #fff;
+            color: #d10000;
+            border: 2px solid #d10000;
+            border:2px solid rgb(242, 12, 12) 
+        }
+        .add-to-cart:hover {
+            background-color: #d10000;
+            color: white;
+        }
+
+        .product-details-section {
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+        .product-details h2 {
+            margin-top: 0;
+        }
+        .product-details table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .product-details th, .product-details td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        a {
+            color: #d10000;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="breadcrumb">
+        Trang chủ > <a href="http://www.humg.edu.vn">Gia dụng</a> > <a href="http://www.humg.edu.vn">Đồ dùng nhà bếp</a> > <a href="http://www.humg.edu.vn">Các loại máy làm bánh</a> > <a href="http://www.humg.edu.vn">Máy nướng bánh</a>
+    </div>
+    <div class="product-section">
+        <h1 class="product-title">(Giá độc quyền) Máy nướng bánh mì Electrolux ETS1303W - Trắng</h1>
+        <div class="product-info">
+            <div class="product-image">
+                <img src="https://giadungducsaigon.vn/wp-content/uploads/2020/05/May-Nuong-Banh-My-Wmf-Toaster-Stelio-1.jpg" 
+                alt="Máy nướng bánh mì Electrolux" width="300">
+            </div>
+            
+            <div class="product-options">
+                <div class="price">
+                    385.000đ <span class="discount">630.000đ</span> (-39%)
+                </div>
+                <div class="shipping">
+                    Vận chuyển: Hỗ trợ phí ship 50.000đ đơn hàng từ 5.000.000đ <br>
+                    <a href="http://www.humg.edu.vn">Chọn địa chỉ giao hàng</a> để dự báo thời gian giao hàng, phí đóng gói, vận chuyển chính xác nhất.
+                </div>
+                <div class="color-option">
+                    Màu sắc: <b>Trắng</b>
+                </div>
+                <div class="quantity">
+                    <label for="quantity">Số lượng:</label>
+                    <div class="quantity-control">
+                        <button id="decrease" onclick="changeQuantity(-1)">-</button>
+                        <input type="number" id="quantity" value="1" min="1">
+                        <button id="increase" onclick="changeQuantity(1)">+</button>
+                    </div>
+                </div>
+                <div class="buttons">
+                    <button class="buy-now">MUA NGAY</button>
+                    <button class="add-to-cart">THÊM VÀO GIỎ HÀNG</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="product-details-section">
+        <h2>THÔNG TIN CHUNG</h2>
+        <div class="product-details">
+            <table>
+                <tr>
+                    <th>SKU</th>
+                    <td>1876773069901</td>
+                </tr>
+                <tr>
+                    <th>Thương hiệu</th>
+                    <td>Electrolux</td>
+                </tr>
+                <tr>
+                    <th>Xuất xứ</th>
+                    <td>Trung Quốc</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+<script>
+    function changeQuantity(amount) {
+        var quantityInput = document.getElementById('quantity');
+        var currentQuantity = parseInt(quantityInput.value);
+        var newQuantity = currentQuantity + amount;
+        if (newQuantity < 1) {
+            newQuantity = 1;
+        }
+        quantityInput.value = newQuantity;
+    }
+</script>
+
+</body>
+</html>

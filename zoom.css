@@ -1,0 +1,21 @@
+.image-container {
+    position: relative;
+    width: 600px;
+}
+.image {
+    width: 100%;
+    height: auto;
+    display: block;
+    cursor: crosshair;
+}
+.zoom-result {
+    position: absolute;
+    top: 0;
+    left: 650px; /* Hiển thị vùng zoom bên phải ảnh */
+    width: 400px;
+    height: 400px;
+    border: 1px solid #d4d4d4;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
